@@ -17,9 +17,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["nurweb.uz"
-
-]
+ALLOWED_HOSTS = ["159.65.91.179"]
 
 
 # Application definition
@@ -37,6 +35,9 @@ INSTALLED_APPS = [
     'category',
     'users',
     'admins',
+    'music',
+    #framework
+    'rest_framework'
 
 ]
 
