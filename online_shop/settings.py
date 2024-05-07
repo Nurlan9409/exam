@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'users',
     'admins',
     'music',
+    'apitest',
     #framework
     'rest_framework',
     'rest_framework.authtoken',
