@@ -31,12 +31,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_extensions',
     'import_export',
+    'drf_yasg',
     #apps
     'category',
     'users',
     'admins',
     'music',
-    'apitest',
+    'API',
     #framework
     'rest_framework',
     'rest_framework.authtoken',
